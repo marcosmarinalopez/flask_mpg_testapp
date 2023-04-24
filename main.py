@@ -43,7 +43,7 @@ def predictions():
     # Realizamos la predicción
     prediction = loaded_model.predict([new_data])
     # Retornamos la predicción en formato JSON    
-    return jsonify({'prediction is': prediction[0]})
+    return jsonify({'prediction is: ': prediction[0]})
 
 # __name__ es una variable que contiene el nombre del módulo
 # Si el módulo se ejecuta directamente, Python asigna el nombre __main__ al módulo
