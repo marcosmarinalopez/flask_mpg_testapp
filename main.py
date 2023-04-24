@@ -50,4 +50,4 @@ def predictions():
 # Si el módulo se importa, el nombre del módulo será el nombre del archivo .py
 # debug=True activa el modo debug para la aplicación, esto permite que se reinicie automáticamente el servidor cuando se realicen cambios en el código.
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
